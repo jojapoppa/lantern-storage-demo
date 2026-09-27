@@ -1,0 +1,8 @@
+node_modules/
+.lantern-app-key
+.lantern-recovery-phrase
+.lantern-last-object.json
+fixtures/generated.bin
+downloaded.bin
+*.log
+.DS_Store

@@ -1,0 +1,19 @@
+{
+  "name": "lantern-storage-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Proof-of-work demo: upload, pin, and download an object with the official Sia Storage JS SDK and indexd (sia.storage).",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "connect": "node connect.mjs",
+    "demo": "node demo.mjs",
+    "demo:packed": "node demo.mjs --packed"
+  },
+  "dependencies": {
+    "@siafoundation/sia-storage": "^0.1.0"
+  },
+  "license": "MIT"
+}
