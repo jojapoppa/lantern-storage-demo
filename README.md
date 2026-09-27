@@ -8,6 +8,10 @@ This is not the Ghost adapter. It only shows the storage path the adapter will u
 - Indexer: `https://sia.storage` (`indexd`)
 - Runtime: Node.js 20+
 
+## Live indexer run
+
+![upload pin download against sia.storage](/DemoScreenShot.png)
+
 ## What it does
 
 1. `npm run connect` — approve this app on `sia.storage` once and save a local app key.
